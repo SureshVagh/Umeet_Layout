@@ -230,21 +230,21 @@ html {
     height: 25px;
     width: 150px;
     background-color: gray;
-    margin:10px auto;
+    margin: 10px auto;
 }
 
 .jointit {
     height: 45px;
     width: 250px;
     background-color: #3b1d82;
-    margin:20px auto;
+    margin: 20px auto;
 }
 
 .line {
     height: 8px;
     width: 70px;
     background-color: #ea0763;
-    margin:auto;
+    margin: auto;
 
 }
 
@@ -255,24 +255,41 @@ html {
 }
 
 .rank {
-    width: 33%;
-    background-color: aqua;
+    width: 31%;
     float: left;
     height: 300px;
 
 }
 
-.Business {
-    width: 33%;
-    background-color: darkslateblue;
+.business {
+    width: 31%;
     float: left;
     height: 300px;
-
 }
 
 .Speaker {
-    width: 33%;
-    background-color: bisque;
+    width: 31%;
     float: left;
     height: 300px;
+}
+
+.ranklogo {
+    height: 90px;
+    width: 100px;
+    margin: auto;
+    background-color: #d9e0e1;
+}
+
+.ranktit {
+    height: 30px;
+    width: 200px;
+    margin: 15px auto;
+    background-color: black;
+}
+
+.rankparegraph {
+    height: 100px;
+    width: 300px;
+    margin: 15px auto;
+    background-color: gray;
 }
