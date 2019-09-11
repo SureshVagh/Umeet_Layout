@@ -74,19 +74,12 @@ html {
     height: 60px;
     width: 80px;
     background-color: white;
-    top: 350px;
-    left: 590px;
-    position: absolute;
-}
-
-.mic {
-    height: 60px;
-    width: 80px;
-    background-color: white;
     top: 400px;
     left: 630px;
     position: absolute;
 }
+
+
 
 .date {
     height: 40px;
@@ -248,27 +241,28 @@ html {
 
 }
 
-.sevicecontainer {
+.servicecontainer {
     width: 80%;
     margin: auto;
+    padding: 10px 10px;
     overflow: auto;
 }
 
 .rank {
-    width: 31%;
+    width: 32%;
     float: left;
     height: 300px;
 
 }
 
 .business {
-    width: 31%;
+    width: 32%;
     float: left;
     height: 300px;
 }
 
 .Speaker {
-    width: 31%;
+    width: 32%;
     float: left;
     height: 300px;
 }
@@ -293,3 +287,77 @@ html {
     margin: 15px auto;
     background-color: gray;
 }
+
+.lerncontainer {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    padding: 30px 0px;
+}
+
+.lernmore {
+    height: 45px;
+    width: 180px;
+    background-color: #3915c1;
+    margin: 10px auto auto 350px;
+    display: inline-block;
+}
+
+.buyticket {
+    height: 45px;
+    width: 180px;
+    background-color: #3915c1;
+    margin: 10px auto auto 40px;
+    display: inline-block;
+}
+
+.speakermain{
+    width: 100%;
+    background-color: #471bc1;
+
+}
+
+.speackcontainer {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    padding: 100px 0px;
+}
+
+.joinsec {
+    height: 25px;
+    width: 150px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.meetspeacker{
+    height: 45px;
+    width: 300px;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.linesec {
+    height: 8px;
+    width: 70px;
+    background-color: #ea0763;
+    margin: auto;
+
+}
+
+.speackercontainer {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    padding: 50px 0px;
+}
+
+.speacker{
+    width: 30%;
+    height: 380px;
+    background-color: #d7dad5;
+    display: inline-block;
+    margin: 0px auto 20px 20px;
+}
+
