@@ -65,18 +65,22 @@ html {
 
 
 .poster {
-    height: 100%;
+
     width: 100%;
+    padding: 250px;
     background-color: #1e1666;
+}
+
+.postercontent {
+    position: relative;
+    padding: 50px;
 }
 
 .mic {
     height: 60px;
     width: 80px;
     background-color: white;
-    top: 400px;
-    left: 630px;
-    position: absolute;
+    margin: 15px auto;
 }
 
 
@@ -85,27 +89,22 @@ html {
     height: 40px;
     width: 320px;
     background-color: white;
-    top: 475px;
-    left: 520px;
-    position: absolute;
+    margin: 15px auto;
 }
 
 .title {
     height: 60px;
     width: 510px;
     background-color: white;
-    top: 530px;
-    left: 430px;
-    position: absolute;
+    margin: 15px auto;
+
 }
 
 .ticket {
     height: 45px;
     width: 170px;
     background-color: #ea0763;
-    top: 650px;
-    left: 590px;
-    position: absolute;
+    margin: 15px auto;
 }
 
 .innovative {
@@ -166,44 +165,62 @@ html {
 }
 
 .timecontainer {
-    width: 95%;
-    margin: auto;
+    padding: 10px;
     overflow: auto;
 
 }
 
-.day {
+.daymain {
     height: 130px;
-    width: 32%;
+    width: 33%;
+    float: left;
+    padding: 15px;
+
+}
+
+.day {
+    height: 100%;
     background-color: #01bbdb;
-    display: inline-block;
+
+}
+
+.hoursmain {
+
+    height: 130px;
+    width: 33%;
+    float: left;
+    padding: 15px;
 }
 
 .hours {
-    height: 130px;
-    width: 32%;
+    height: 100%;
     background-color: #fbcf06;
-    display: inline-block;
+}
+
+.minsmain {
+    height: 130px;
+    width: 33%;
+    float: left;
+    padding: 15px;
+
 }
 
 .mins {
-    height: 130px;
-    width: 32%;
+    height: 100%;
     background-color: #f640c1;
-    display: inline-block;
 }
 
 .time {
     height: 20px;
     width: 330px;
-    margin: 30px 0px 0px 110px;
+    margin: 15px 0px 15px 110px;
     background-color: #dd075e;
 }
 
 .getticket {
     height: 19px;
     width: 120px;
-    margin: 10px 0px 0px 220px;
+    margin: 5px 0px 5px 220px;
     background-color: #3b1d92;
 }
 
@@ -255,18 +272,6 @@ html {
 
 }
 
-.business {
-    width: 32%;
-    float: left;
-    height: 300px;
-}
-
-.Speaker {
-    width: 32%;
-    float: left;
-    height: 300px;
-}
-
 .ranklogo {
     height: 90px;
     width: 100px;
@@ -295,23 +300,46 @@ html {
     padding: 30px 0px;
 }
 
+.lerncontent {
+    overflow: auto;
+    width: 500px;
+    margin: auto;
+}
+
+
+
 .lernmore {
-    height: 45px;
-    width: 180px;
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.morecontent {
     background-color: #3915c1;
-    margin: 10px auto auto 350px;
-    display: inline-block;
+    height: 40px;
 }
 
 .buyticket {
-    height: 45px;
-    width: 180px;
-    background-color: #3915c1;
-    margin: 10px auto auto 40px;
-    display: inline-block;
+    width: 50%;
+    float: left;
+    padding: 20px;
+
 }
 
-.speakermain{
+.buycontent {
+    height: 40px;
+    background-color: #3915c1;
+}
+
+
+
+
+
+
+
+
+
+.speakermain {
     width: 100%;
     background-color: #471bc1;
 
@@ -331,7 +359,7 @@ html {
     margin: 10px auto;
 }
 
-.meetspeacker{
+.meetspeacker {
     height: 45px;
     width: 300px;
     background-color: white;
@@ -353,11 +381,10 @@ html {
     padding: 50px 0px;
 }
 
-.speacker{
+.speacker {
     width: 30%;
     height: 380px;
     background-color: #d7dad5;
     display: inline-block;
     margin: 0px auto 20px 20px;
 }
-
