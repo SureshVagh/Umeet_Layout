@@ -255,7 +255,7 @@ html {
 
 .jointit {
     height: 45px;
-    width: 250px;
+    width: 350px;
     background-color: #3b1d82;
     margin: 20px auto;
 }
@@ -345,7 +345,7 @@ html {
 
 .speakerwidth{
     width: 80%;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
 .specontainer {
@@ -408,10 +408,62 @@ html {
     width: 80%;
     margin: 50px auto;
 }
-.confecontainer {
-    width: 80%;
+
+.daydatecontainer {
+    width: 100%;
     margin: auto;
-    padding: 100px 0px;
+    padding: 20px 100px;
+    overflow: auto;
 }
+
+.daydate {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.daycon{
+    background-color: #3b1d82;
+    padding: 8px;    
+}
+.daycon1 {
+    width: 40%;
+    height: 25px;
+    background-color: white;
+    margin: 15px auto;
+    
+}
+.daycon2{
+    width: 80%;
+    height: 20px;
+    margin: 15px auto;
+    background-color:white;
+}
+
+..speackcon {
+    width: 100%;
+    overflow: auto;
+}
+
+.spackpartone{
+    width: 30%;
+    float: left;
+    background-color: #eb0162;
+}
+
+.spackphoto{
+    height: 40px;
+    width: 50%;
+    background-color: white;
+    
+}
+
+.spackparttwo{
+    height: 200px;
+    width: 70%;
+    float: left;
+    background-color: #f7f7f7;
+}
+
 
 
