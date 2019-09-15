@@ -112,7 +112,7 @@ html {
     background-color: #f7f7f7;
 }
 
-.innowidth{
+.innowidth {
     width: 80%;
     margin: 50px auto;
     background-color: #f7f7f7;
@@ -234,16 +234,16 @@ html {
     width: 100%;
 }
 
-.whyjoinwidth{
+.whyjoinwidth {
     width: 80%;
-    margin: 70px auto;
+    margin: 100px auto;
 }
 
 .joincontainer {
     width: 100%;
     margin: auto;
     overflow: auto;
-    padding: 70px 0px;
+    padding: 0px 0px 70px 0px;
 }
 
 .join {
@@ -271,7 +271,7 @@ html {
 .servicecontainer {
     width: 100%;
     margin: auto;
-    padding: 10px ;
+    padding: 10px;
     overflow: auto;
 }
 
@@ -343,9 +343,10 @@ html {
     background-color: #471bc1;
 }
 
-.speakerwidth{
+.speakerwidth {
     width: 80%;
-    margin: 40px auto;
+    margin: auto;
+    padding: 50px;
 }
 
 .specontainer {
@@ -388,25 +389,29 @@ html {
     padding: 10px;
 }
 
-.spakcon{
+.spakcon {
     background-color: white;
-    padding: 8px;    
+    padding: 8px;
 }
+
 .con1 {
     height: 280px;
     background-color: #d7dad5;
 }
-.con2{
+
+.con2 {
     height: 100px;
-    background-color:#462880;
+    background-color: #462880;
 }
 
 .conferencemain {
     width: 100%;
 }
-.conferencewidth{
+
+.conferencewidth {
     width: 80%;
-    margin: 50px auto;
+    margin: auto;
+    padding: 80px 40px 80px 40px;
 }
 
 .daydatecontainer {
@@ -422,48 +427,246 @@ html {
     padding: 20px;
 }
 
-.daycon{
+.daycon {
     background-color: #3b1d82;
-    padding: 8px;    
+    padding: 8px;
 }
+
 .daycon1 {
     width: 40%;
     height: 25px;
     background-color: white;
     margin: 15px auto;
-    
+
 }
-.daycon2{
+
+.daycon2 {
     width: 80%;
     height: 20px;
     margin: 15px auto;
-    background-color:white;
+    background-color: white;
 }
 
-..speackcon {
+.speackcontainer {
     width: 100%;
+
+}
+
+.speackcon {
+    width: 100%;
+    margin: 20px auto;
     overflow: auto;
 }
 
-.spackpartone{
+.spackpartone {
     width: 30%;
+    padding: 20px 20px;
     float: left;
     background-color: #eb0162;
 }
 
-.spackphoto{
-    height: 40px;
-    width: 50%;
+.spackphoto {
+    height: 70px;
+    width: 30%;
+    margin: 0px auto 10px auto;
     background-color: white;
-    
+
 }
 
-.spackparttwo{
-    height: 200px;
+.spackname {
+    height: 20px;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+}
+
+.spacabout {
+    height: 15px;
+    width: 50%;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.spackparttwo {
     width: 70%;
     float: left;
+    padding: 23px 35px;
     background-color: #f7f7f7;
 }
 
+.parttwotime {
+    height: 10px;
+    width: 25%;
+    background-color: black;
+}
+
+.parttwotitle {
+    height: 20px;
+    width: 40%;
+    margin: 10px auto 20px 0px;
+    background-color: black;
+}
+
+.parttwoparegraph {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+.planmain {
+    width: 100%;
+    background-color: #d7dad5;
+}
+
+.planwidth {
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.plancontainer {
+    width: 100%;
+    margin: auto;
+}
+
+.plan {
+    width: 33%;
+    float: left;
+    padding: 10px;
+}
+
+.plancon {
+    background-color: white;
+    padding: 8px;
+}
+
+.pricetableheader {
+    width: 100%;
+    padding: 25px 20px;
+}
+
+.plancon1 {
+    width: 35%;
+    height: 35px;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.plancon2 {
+    width: 50%;
+    height: 20px;
+    margin: 0px auto 10px auto;
+    background-color: black;
+}
+
+.plancon3 {
+    width: 80%;
+    height: 65px;
+    margin: 0px auto;
+    background-color: black;
+}
+
+.pricetablelist {
+    width: 100%;
+    padding: 25px 20px;
+}
+
+.planline1 {
+    width: 80%;
+    height: 20px;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.planline2 {
+    width: 73%;
+    height: 20px;
+    margin:10px auto;
+    background-color: black;
+}
+
+.planline3 {
+    width: 60%;
+    height: 20px;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.planline4 {
+    width: 80%;
+    height: 20px;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.planline5 {
+    width: 60%;
+    height: 20px;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.pricetablefooter{
+    width: 100%;
+    padding: 25px 20px;
+}
+.plancon4 {
+    width: 80%;
+    height: 65px;
+    margin: 0px auto;
+    background-color: #d7dad5;
+}
+
+.eventplanmain {
+    width: 100%;
+    background-color: #f0f1f3;
+}
+
+.eventplanwidth {
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+    padding: 80px 0px;
+}
+
+.sponsortitle{
+    height: 30px;
+    width: 20%;
+    background-color: black;
+    margin: 0px auto 30px auto;
+}
+
+.sponsorrow{
+    width: 100%;
+    margin: auto;
+}
+
+.bannercontent{
+    width: 100%;
+    background-color: white;
+    
+}
+.bannerone{
+    width: 33.33%;
+    height: 100px;
+    float: left;
+    padding: 20px;
+    background-color: black;
+}
+
+.bannertwo{
+    width: 33.33%;
+    height: 100px;
+    float: left;
+    background-color: black;
+}
+
+.bannerthree{
+    width: 33.33%;
+    height: 100px;
+    float: left;
+    background-color: black;
+}
 
 
