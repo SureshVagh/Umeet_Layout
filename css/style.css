@@ -582,7 +582,7 @@ html {
 .planline2 {
     width: 73%;
     height: 20px;
-    margin:10px auto;
+    margin: 10px auto;
     background-color: black;
 }
 
@@ -607,10 +607,11 @@ html {
     background-color: black;
 }
 
-.pricetablefooter{
+.pricetablefooter {
     width: 100%;
     padding: 25px 20px;
 }
+
 .plancon4 {
     width: 80%;
     height: 65px;
@@ -624,49 +625,52 @@ html {
 }
 
 .eventplanwidth {
-    overflow: auto;
     width: 80%;
     margin: auto;
     padding: 80px 0px;
 }
 
-.sponsortitle{
+.sponsortitle {
     height: 30px;
     width: 20%;
     background-color: black;
-    margin: 0px auto 30px auto;
+    margin: 40px auto;
 }
 
-.sponsorrow{
-    width: 100%;
+.sponsorrow {
+    width: 90%;
     margin: auto;
+    overflow: auto;
 }
 
-.bannercontent{
-    width: 100%;
-    background-color: white;
-    
-}
-.bannerone{
+.bannercontent {
     width: 33.33%;
-    height: 100px;
     float: left;
     padding: 20px;
-    background-color: black;
+
 }
 
-.bannertwo{
+.banner {
+    height: 130px;
+    width: 100%;
+    background-color: grey;
+}
+
+.sponsorrowcpy {
+    width: 60%;
+    margin: auto;
+    overflow: auto;
+}
+
+.bannercontentcpy {
     width: 33.33%;
-    height: 100px;
     float: left;
-    background-color: black;
+    padding: 20px;
+
 }
 
-.bannerthree{
-    width: 33.33%;
+.bannercpy {
     height: 100px;
-    float: left;
-    background-color: black;
+    width: 100%;
+    background-color: grey;
 }
-
-
