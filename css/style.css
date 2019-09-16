@@ -346,12 +346,11 @@ html {
 .speakerwidth {
     width: 80%;
     margin: auto;
-    padding: 50px;
+    padding: 50px 0px;
 }
 
 .specontainer {
     width: 100%;
-    margin: auto;
     overflow: auto;
     padding: 100px 0px;
 }
@@ -673,4 +672,115 @@ html {
     height: 100px;
     width: 100%;
     background-color: grey;
+}
+
+.eventmain {
+    width: 100%;
+    background-color: #471bc1;
+}
+
+.eventwidth {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.eventcontainer {
+    width: 100%;
+    overflow: auto;
+}
+
+.event {
+    width: 33%;
+    float: left;
+}
+
+.evecon {
+    background-color: white;
+    padding: 1px;
+}
+
+.evecon1 {
+    height: 330px;
+    background-color: #d7dad5;
+}
+
+.aboutcontainer {
+    width: 100%;
+    overflow: auto;
+}
+
+.about {
+    width: 50%;
+    float: left;
+    padding: 0px 10px;
+}
+
+.aboutcon {
+    background-color: #3b1d82;
+    padding: 10px;
+}
+
+.spoimage {
+    height: 230px;
+    background-color: #5da9a7;
+}
+
+.aboutbody {
+    background-color: #3b1d82;
+    padding: 35px 10px;
+}
+
+.aboutcon1 {
+    height: 30px;
+    width: 100%;
+    background-color: #242424;
+
+}
+
+.aboutcon2 {
+    height: 30px;
+    width: 80%;
+    background-color: #242424;
+    margin: 10px auto 10px 0px;
+}
+
+.aboutinfo {
+    width: 100%;
+    overflow: auto;
+}
+
+.infocon {
+    height: 20px;
+    width: 30%;
+    float: left;
+    background-color: #797979;
+    margin: 15px 10px 15px 0px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #111429;
+    padding: 100px 0px 0px 0px;
+}
+
+.widthfooter {
+    width: 100%;
+    
+}
+.footercontainer{
+    width: 100%;
+    overflow: auto;
+}
+
+.footer-div1{
+  width: 25%;    
+  float: left;
+  padding: 0px 20px 0px 0px;
+}
+
+.div1title{
+    height: 50px;
+    width: 70%;
+    background-color: white;
 }
