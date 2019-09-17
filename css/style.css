@@ -1,7 +1,6 @@
 body,
 html {
     margin: 0;
-    padding: 0;
     height: 100%;
     width: 100%;
 }
@@ -758,29 +757,151 @@ html {
     margin: 15px 10px 15px 0px;
 }
 
-.footer {
+.footermain {
     width: 100%;
     background-color: #111429;
     padding: 100px 0px 0px 0px;
 }
 
 .widthfooter {
-    width: 100%;
-    
+    width: 80%;
+    margin: auto;
+
 }
-.footercontainer{
+
+.footer {
+    width: 100%;
+}
+
+.footercontainer {
     width: 100%;
     overflow: auto;
 }
 
-.footer-div1{
-  width: 25%;    
-  float: left;
-  padding: 0px 20px 0px 0px;
+.footer-div1 {
+    width: 25%;
+    float: left;
+    padding: 0px 15px;
 }
 
-.div1title{
-    height: 50px;
+.divtitle {
+    height: 40px;
     width: 70%;
     background-color: white;
+    margin: 0px 0px 40px 0px;
+}
+
+.div1paregraph {
+    height: 200px;
+    width: 100%;
+    background-color: #666666;
+}
+
+.footer-div2 {
+    width: 25%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.ul {
+    width: 50%;
+    float: left;
+    padding: 0px 15px 0px 0px;
+}
+
+.ulcontent {
+    height: 30px;
+    width: 70%;
+    margin: 0px 10px 10px 0px;
+    background-color:
+        #666666;
+}
+
+.footer-div3 {
+    width: 25%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.div3paregraph {
+    height: 100px;
+    width: 100%;
+    background-color: #666666;
+    margin: 0px 0px 20px;
+}
+
+.email {
+    height: 40px;
+    width: 80%;
+    float: left;
+    background-color: white;
+}
+
+.emailsend {
+    height: 40px;
+    width: 20%;
+    float: left;
+    background-color: #ea0763;
+}
+
+.footer-div4 {
+    width: 25%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.gallerycontainer {
+    width: 100%;
+    overflow: auto;
+}
+
+.imgcontainer {
+    width: 25%;
+    float: left;
+    padding: 5px;
+}
+
+.images {
+    width: 100%;
+    height: 50px;
+    background-color: #b795ec;
+
+}
+
+.cpyrightcontainer {
+    width: 100%;
+    margin: 70px 0px 0px;
+    padding: 20px 0px;
+    overflow: auto;
+}
+
+.cpyrightcontent {
+    width: 80%;
+    padding: 0px 15px;
+    float: left;
+}
+
+.cpyright {
+    height: 35px;
+    width: 60%;
+    background-color: #797979;
+}
+
+.socialcontent {
+    width: 20%;
+    float: left;
+    overflow: auto;
+}
+
+.icon {
+    width: 25%;
+    padding: 0px 10px 0px;
+    float: left;
+}
+
+.iconimages {
+    height: 35px;
+    width: 100%;
+    background-color: #797979;
+
 }
